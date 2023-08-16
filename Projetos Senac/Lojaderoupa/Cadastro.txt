@@ -1,0 +1,27 @@
+CREATE TABLE `user` (
+`username` text NOT NULL,
+`nickname` text NOT NULL,
+`tel1` varchar(10) NULL,
+`tel2` varchar(11) NOT NULL ,
+`email` text NOT NULL ,
+`emailrec` text NOT NULL ,
+`birthday` date NOT NULL ,
+`naturalcity` text NOT NULL ,
+`naturaldistrict` text NOT NULL ,
+`CPF` varchar(11) NOT NULL  primary key ,
+`RG` varchar(11) NOT NULL  ,
+`RGdate` date NOT NULL ,
+`Street` text NOT NULL ,
+`Streetnumber` varchar(5) NOT NULL ,
+`complement` text NULL ,
+`district` text NOT NULL ,
+`city` text NOT NULL ,
+`CEP` varchar(8) NOT NULL,
+`password` text NOT NULL ,
+`job` text NOT NULL ,
+`schooling` text NOT NULL ,
+`civilstate`text NOT NULL ,
+`height` float NOT NULL ,
+`weight` float NOT NULL  );
+ 
+    

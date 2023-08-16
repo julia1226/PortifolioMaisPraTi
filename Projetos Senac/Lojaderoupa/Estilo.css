@@ -1,0 +1,243 @@
+.row img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.caixa1 {
+background-color: rgb(48, 48, 48);
+height: auto;
+width: auto;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.caixa2{
+    background-color: rgb(84, 0, 194);
+    height: auto;
+    width: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img1 {
+    height: 200x;
+    width: 200px;
+}
+
+.artigos1{
+    display: grid;
+    height: 200x;
+    width: 200px;
+}
+
+.bg1{
+    background-color: gray;
+    height:100vh;
+    width: 100vh;
+    
+}
+
+.menutext{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+
+.menutext1{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; }
+
+.menu1{
+font-size: 30px;
+font-weight: lighter;
+text-align: center;
+}
+
+.bannersup{
+    height:350px ;
+    width:100% ;
+
+}
+
+
+.submit-button {
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+}
+
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:brown;
+    text-decoration: none;
+}
+
+a:active{
+    color:brown;
+}
+
+.historia{
+    background-color: aqua;
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  
+}
+
+.right {
+    background-color: rgb(241, 0, 121);
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+
+.main {
+
+    float: left;
+    width: 63%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.main p{
+font-size:20px;
+text-align: justify;
+}
+.menu {
+    float: left;
+    width: 18%;
+    height: auto;
+}
+
+.bannerlat{
+    margin-left: 5px;
+    float: left;
+    width: 100%;
+    height:100%
+}
+
+.imgajuda{
+    margin-top: 20px;
+width:100%;
+height: 350px;
+
+}
+
+.caixacontato{
+    background-color: rgb(36, 36, 36);
+    border: 10px;
+    border-color: black;
+    color:rgb(32, 228, 169);
+    font-size: 10px;
+    font-weight: lighter;
+
+}
+
+.formgrey{
+    background-color: darkgrey;
+}
+
+.ImageCarousel_slider__MfBrg {
+    position: relative;
+    display: block;
+    width: 100%;
+    --slider-snap-align: center;
+    --slider-item-width: 100%;
+    --slider-item-gap: 1rem;
+    --slider-item-reveal: 0rem;
+    --slider-item-count: 1;
+    --slider-nav-zoom: 1;
+    --slider-track-opacity: 0.1;
+    --slider-track-height: 0;
+    --slider-arrows-display: flex;
+    box-sizing: border-box;
+}
+
+.ImageCarousel_container__5sYg_ {
+    --slider-item-gap-totalwidth: calc(var(--slider-item-gap) * (var(--slider-item-count) - 1));
+    --slider-item-width: calc((100% - var(--slider-item-reveal) - var(--slider-item-gap-totalwidth)) / var(--slider-item-count));
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    display: grid;
+    align-items: center;
+    height: 100%;
+    grid: auto/auto-flow -webkit-max-content;
+    grid: auto/auto-flow max-content;
+    grid-auto-rows: 100%;
+    grid-auto-columns: var(--slider-item-width);
+    grid-auto-flow: column;
+    grid-gap: var(--slider-item-gap);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+    scrollbar-color: rgba(0,0,0,.4) rgba(0,0,0,var(--slider-track-opacity));
+    background-clip: padding-box;
+    overflow-y: hidden;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    .gradient-custom {
+        /* fallback for old browsers */
+        background: #f093fb;
+      
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(240,147,251,0.5), rgba(245,87,108,0.5));
+      
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(240,147,251,0.5), rgba(245,87,108,0.5))}
+
+
+        .menusuperior{
+color:white;
+
+
+        }
+
+   

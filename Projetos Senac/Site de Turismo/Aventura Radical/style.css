@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+}
+
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.right {
+   
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    /* Para exibição de dispositivos com resolução máxima de 500 pixels */
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
+
+.image-text {
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width:400px;
+    height:500%;
+    width:400%;            
+
+}
+
+    .direita{
+        float: left;
+        padding: 5px;
+    max-width: 300px;
+    height:100%;
+    width:200%;
+}
+.logo {
+    width: 50px;
+     height: 50px;
+      margin:10px;
+     
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.right {
+   
+   float: left;
+   width: 20%;
+   padding: 10px 15px;
+   margin-top: 7px;}
+
+   .borda{
+    border: 30px solid ;
+    border-color: green;
+    height:50%;
+    width: 50%;
+    margin: 10%;
+   }
+
+   .borda2{
+       border-style:groove;
+       border-color: maroon;
+   }
+
+   .redesociais{
+    width:100px;
+     height: 100px;
+      margin:10px;
+}

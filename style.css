@@ -8,7 +8,7 @@
 .bgimage {
     height: 100vh;
     position: relative;
-    background: url(images/heroImagem.jpg);
+    background: url(images/workspace.jpg);
     background-size: cover;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .card:hover .servicesIcon{
-    color: #008000;
+    color: #804900;
 }
 
 .servicesText:hover {
@@ -60,7 +60,7 @@
 
 /* Estilização do cabeçalho */
 .navbar{
-    background-color: #006342;
+    background-color: #460557;
 }
 
 .navbar a {
@@ -81,7 +81,7 @@
 
 /* Footer */
 footer {
-    background-color: #003020;
+    background-color: #460557;
 
 }
 
@@ -91,7 +91,7 @@ footer {
 }
 
 .footerDev{
-    background-color: #006342;
+    background-color: #582066;
 }
 
 /* Efeito */
